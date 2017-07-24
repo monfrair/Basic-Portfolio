@@ -1,0 +1,166 @@
+/*---------Basic Setup-------------*/
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+  }
+
+.clearfix::after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+
+/*----------Headings-----------*/
+
+h1 {
+    
+    color: blue;
+    
+    
+   
+}
+
+
+
+/*-----------------Navigation-----------*/
+
+.main-nav {
+    float:right;
+    list-style: none;
+
+    margin-right: 100px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+
+
+
+/*------------------Images--------------------*/
+
+#linkedin-logo {
+    height: 75px;
+    width: auto;
+    padding: 4px;
+    background-color: white;
+}
+#github-logo {
+    height: 75px;
+    width: auto;
+    padding: 4px;
+    background-color: white;
+}
+#stack-logo {
+    height: 75px;
+    width: auto;
+    padding: 4px;
+    background-color: white;
+}
+#nyr {
+    height: 150px;
+    width: auto;
+    
+}
+
+#lhl {
+    height: 150px;
+    width: auto;
+    
+}
+
+#njd {
+    height: 150px;
+    width: auto;
+    
+}
+
+#tbl {
+    height: 150px;
+    width: auto;
+    
+}
+#cbh {
+    height: 150px;
+    width: auto;
+}
+
+#sjs {
+    height: 150px;
+    width: auto;
+}
+
+#wjhs {
+    height: 225px;
+    width: auto;
+    float: left;
+    margin-right: 30px;
+    margin-top: 10px;  
+
+}
+
+
+
+
+/*------------------About Me-----------------*/
+
+.about-me {
+    background-color: white;
+    margin-left:  60px;
+    margin-top: 50px;
+    width: 60%;
+    height:75%;
+    float: left;
+}
+
+.about {
+    background-color: white;
+    
+}
+
+.my-links {
+    text-decoration: none;
+    width; 30%;
+    height: 33%;
+    float: right;
+    margin-top: 75px;
+    margin-right: 100px;
+    
+    
+ }
+
+.clearfix::after {
+    content: '.';
+    clear: both;
+    display: block;
+    
+}
+
+footer {
+    height: 80px;
+    width: 100%
+    background-color: darkslateblue;
+}
+
+.copyw {
+    text-decoration: none;
+    
+}
