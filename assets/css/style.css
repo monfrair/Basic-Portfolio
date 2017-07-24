@@ -1,15 +1,16 @@
 /*---------Basic Setup-------------*/
 
    * {
-    margin: 0;
+    
     padding: 0;
     box-sizing: border-box;
+    background-color: lightgrey;
     
 }
 
 html,
 body {
-    background-color: #fff;
+    background-color: lightgrey;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
@@ -29,9 +30,8 @@ body {
 /*----------Headings-----------*/
 
 h1 {
-    
+    margin-left:  50px;
     color: blue;
-    
     
    
 }
@@ -58,19 +58,19 @@ h1 {
 /*------------------Images--------------------*/
 
 #linkedin-logo {
-    height: 75px;
+    height: 60px;
     width: auto;
     padding: 4px;
     background-color: white;
 }
 #github-logo {
-    height: 75px;
+    height: 60px;
     width: auto;
     padding: 4px;
     background-color: white;
 }
 #stack-logo {
-    height: 75px;
+    height: 60px;
     width: auto;
     padding: 4px;
     background-color: white;
@@ -124,16 +124,19 @@ h1 {
 
 .about-me {
     background-color: white;
-    margin-left:  60px;
+    border-width: 0px;
     margin-top: 50px;
-    width: 60%;
-    height:75%;
+    width: 50%;
+    height:80%;
     float: left;
 }
 
 .about {
     background-color: white;
-    
+    width 90%;
+    padding: 10px;
+    line-height: 125%;
+    margin-left: 20px;
 }
 
 .my-links {
@@ -154,13 +157,10 @@ h1 {
     
 }
 
-footer {
-    height: 80px;
-    width: 100%
-    background-color: darkslateblue;
-}
 
-.copyw {
-    text-decoration: none;
-    
+
+
+input[type=message] {
+    width: 50px;
+    height: 40px;
 }
