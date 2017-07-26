@@ -18,6 +18,7 @@ body {
     text-rendering: optimizeLegibility;
     width: 960px;
 
+
     
     
   }
@@ -114,6 +115,32 @@ nav ul li {
     width: auto;
     
 }
+
+#youtube-logo {
+    height: 60px;
+    width: auto;
+}
+
+#twitter-logo {
+    height: 60px;
+    width: auto;
+}
+
+#facebook-logo {
+    height: 60px;
+    width: auto;
+}
+
+#googleplus-logo {
+    height: 60px;
+    width: auto;
+}
+
+#skype-logo {
+    height: 60px;
+    width: auto;
+}
+
 
 #wjhs {
     height: 200px;
