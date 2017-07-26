@@ -1,59 +1,74 @@
 <!DOCTYPE html>
-
-<!-------Contact Me Page----------------->
-
 <html lang="en">
 
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Profile of William Sorrentino a student in the 2017 Rutgers coding bootcamp.">
-        <title>William Sorrentino Profile</title>
+        <title>William Sorrentino Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         
     </head>
 
-    <body>        
+    <body>
         
         
-<header>
+<!--------------Header section with Navigation--------->
+        
+        <header>
             
-            <h1>William Sorrentino</h1>
+        <div class="headnav">
+            <a href="index.html"><h1 class="name">William Sorrentino</h1></a>
+            
             <nav>
-                <div class="row">
-                    <ul class="main-nav">
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                <ul> 
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
                     
-                </div>
+                
             </nav>
         
+            </div>
         </header>
-    
-
-
-<div class="contact-me">
         
-           <form>
-              Name: <br>
-              <input type="text" name="firstname">
-              <br>
-              Email: <br>
-              <input type="text" name="email"><br>
-              Message: <br>
-              <input type="text" name="message">
+        
+    <div id="contact">
+            
+            <div id="column1of2">
+            <h2>Contact Me</h2>
+            
+            <form method="post">
+				
+				<label for="name">Name </label>
+				<input type="text" id="name" name="input_name" placeholder="Your Name">
+				
+				<label for="email">Email </label>
+				<input type="email" name="email" id="email" placeholder="Your email">
 
-            </form>
+				<label for="message">Message </label>
+				<textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+
+				<input type="submit" class="submit-button" value="Submit">
+
+			</form>
+                
+<!--    !* <input type="submit" value="SUBMIT EMAIL TO: info@whatshouldisay.ca" <a href="mailto:info@whatshouldisay.ca">-->
+
+                
+        </div>
+           
         
     </div>
         
         <!-----------My Links section---------------->
         
-    <div class="my-links">
+    <aside id="column2of2">
+    
         
-        <h4>Connect with me</h4> <br>
+        <h3>Connect with me</h3> <br>
             <a href="http://www.linkedin.com/in/exigentgroup/" target="_blank">
             <img id="linkedin-logo" src="assets/images/if_linkedin_circle_color_107178.png" alt="linkedin logo"></a>
            
@@ -64,6 +79,9 @@
             <a href="http://stackexchange.com/users/11085851/bill-sorrentino" target="_blank">
             <img src="assets/images/if_stackoverflow_287529.png" alt="stackoverflow logo" id="stack-logo">
             </a>
+        
+    
+       </aside>
         
     
    </div>

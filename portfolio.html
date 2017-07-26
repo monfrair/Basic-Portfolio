@@ -1,58 +1,71 @@
 <!DOCTYPE html>
-
-<!----------Portfolio Page---------------->
-
 <html lang="en">
 
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Profile of William Sorrentino a student in the 2017 Rutgers coding bootcamp.">
-        <title>William Sorrentino Profile</title>
+        <title>William Sorrentino Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
         
     </head>
 
-    <body>   
-
-    <header>
+    <body>
+        
+        
+<!--------------Header section with Navigation--------->
+        
+        <header>
             
-            <h1>William Sorrentino</h1>
+        <div class="headnav">
+            <a href="index.html"><h1 class="name">William Sorrentino</h1></a>
+            
             <nav>
-                <div class="row">
-                    <ul class="main-nav">
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+                <ul> 
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
                     
-                </div>
+                
             </nav>
         
+            </div>
         </header>
         
         
+        
+<!-----------------Portfiolio Section---------->
 
 
-    <div class="portfolio">
+    <div id="about">
         
-        <h2>Portfolio</h2>
-        <img id="nyr" src="assets/images/NYR.png" alt="New York Rangers Logo">
-        <img id="lhl" src="assets/images/LongHillLightD14bR05aP01ZL-Harrison5a%20copy.png" alt="long hill lightning logo">
-        <img id="njd" src="assets/images/NJD.png" alt="New Jersey Devils logo">
-        <img id="tbl" src="assets/images/TBL.png" alt="Tampa Bay Lightning Logo">
-        <img id="cbh" src="assets/images/CBH.png" alt="Chicago Blackhawks logo">
-        <img id="sjs" src="assets/images/SJS.png" alt="Chicago Blackhawks logo">
+            <div id="column1of2">
+            <h2>My Portfolio</h2>
+                
+        <ul id="portfolio">
+            <li class="my-site longhill"><h3>LHL Bicycle Club</h3><a target="_blank" href="http://www.facebook.com/groups/LHLBC/"><img id ="lhl" src="assets/images/LongHillLightD14bR05aP01ZL-Harrison5a%20copy.png"></a></li>
+            
+            
+            <li class="my-site exigrp"><h3>Exigent Group</h3><a target="_blank" href="https://www.exigrp.com/"><img id="exigent" src="assets/images/ExigentGroupD07aR01aP01ZL%20copy.png"></a></li>
+            
+            <li class="my-site thebelmont"><h3>The Belmont Tavern</h3><a target="_blank" href="http://www.facebook.com/BelmontNJ/"><img id ="belmont" src="assets/images/belmont%20exterior%20copy.jpg"></a></li>
+            
+            
+            <li class="my-site sps"><h3>Star Painting Services</h3><a target="_blank" href="http://starpaintingservices.com/"><img id ="starpainting" src="assets/images/star-painting-services%20copy.png"></a></li>
+            
+            
+            
+                
+                </ul>        
+                
+        </div>
         
+    <aside id="column2of2">
+    
         
-     </div>
-        
-        
-    <!-----------My Links section---------------->
-        
-    <div class="my-links">
-        
-        <h4>Connect with me</h4> <br>
+        <h3>Connect with me</h3> <br>
             <a href="http://www.linkedin.com/in/exigentgroup/" target="_blank">
             <img id="linkedin-logo" src="assets/images/if_linkedin_circle_color_107178.png" alt="linkedin logo"></a>
            
@@ -65,7 +78,16 @@
             </a>
         
     
-   </div>
+       </aside>
+        
+ 
+        </div>
+        
+        
+        
+   
+        
+    
 
 <footer>
             

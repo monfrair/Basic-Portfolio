@@ -14,12 +14,11 @@ body {
     background-color: lightgrey;
     color: #555;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    font-weight: 300;
     line-height: 150%;
     text-rendering: optimizeLegibility;
     width: 960px;
-    margin right: auto;
-    margin-left: auto;
+
+    
     
   }
 
@@ -55,7 +54,28 @@ footer {
         
 }
 
+h1 {
+    display: inline-block;
+	background: #008D97; 
+	font-size: 30px; 
+	color: white; 
+	padding: 15px 20px;
+   
+}
 
+h2 {
+    display: inline-block;
+	background: #008D97; 
+	font-size: 20px; 
+	color: white; 
+	padding: 15px 15px;
+    margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 20px; 
+	color: black; 
+}
 
 /*-----------------Navigation-----------*/
 
@@ -69,6 +89,7 @@ nav {
 nav ul li {
     display: inline-block;
     margin-left: 30px;
+    margin-top: 15px;
     
 }
 
@@ -93,38 +114,6 @@ nav ul li {
     width: auto;
     
 }
-#nyr {
-    height: 150px;
-    width: auto;
-    
-}
-
-#lhl {
-    height: 150px;
-    width: auto;
-    
-}
-
-#njd {
-    height: 150px;
-    width: auto;
-    
-}
-
-#tbl {
-    height: 150px;
-    width: auto;
-    
-}
-#cbh {
-    height: 150px;
-    width: auto;
-}
-
-#sjs {
-    height: 150px;
-    width: auto;
-}
 
 #wjhs {
     height: 200px;
@@ -132,10 +121,25 @@ nav ul li {
     margin-right: 20px;
 }
 
+#lhl {
+    height: 100px;
+    width: auto;
+}
+#starpainting {
+    height: 100px;
+    width: 240px;
+}
 
+#exigent {
+    height: 100px;
+    width: 240px;
+}
 
-
-/*------------------About Me-----------------*/
+#belmont {
+    height: 100px;
+    width: auto;
+}
+/*------------------About Me page-----------------*/
 
 
 
@@ -159,6 +163,59 @@ nav ul li {
     margin-right: auto;
 }
 
-input[type=message] {
-    width: 50px;
-    height: 40px;
+/*-------------Contact Page-----------*/
+
+label {
+	display: block;
+	font-size: 16px;
+}
+
+input[type="text"], input[type="email"] {
+	width: 100%;
+	margin: 10px 0 10px 0;
+	height: 25px;
+	border: 1px solid #eee;
+	font-size: 15px;
+	padding: 4px 8px;
+}
+
+textarea {
+	width: 100%;
+	margin-top: 4px;
+	border: 1px solid #eee;
+	font-size: 15px;
+	padding: 4px 8px;
+}
+
+input[type="submit"] {
+	background: #008D97;
+	color: #eee;
+	font-size: 18px;
+	padding: 10px 20px;
+	border: none;
+    
+}
+    
+    
+/*---------------Portfolio Page----------*/
+    
+li.my-site {
+	display: inline-block;
+	width: 260px;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+	height: 140px;
+    text-align: center;
+	position: relative;
+    background-color: #eee;
+    margin-right: 10px;
+    margin-top: 20px;
+	margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+
+    
+
+
