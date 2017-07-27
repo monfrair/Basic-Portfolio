@@ -1,6 +1,9 @@
 /*---------Basic Setup-------------*/
 
-   
+/*--William Sorrentino Rutgers Bootcamp Summer 2017--->
+<---Tuesday/Thursday Class-----*/  
+
+
 html {
   box-sizing: border-box;
 }
@@ -17,9 +20,6 @@ body {
     line-height: 150%;
     text-rendering: optimizeLegibility;
     width: 960px;
-
-
-    
     
   }
 
@@ -51,7 +51,7 @@ footer {
     color: black;
     border-top: 5px solid #fff
     padding; 25px 0 25px 0;
-    
+   
         
 }
 
@@ -78,6 +78,10 @@ h3 {
 	color: black; 
 }
 
+.copyw {
+    margin-top: 25px;
+    
+}
 /*-----------------Navigation-----------*/
 
 nav {
@@ -93,9 +97,6 @@ nav ul li {
     margin-top: 15px;
     
 }
-
-
-
 
 
 /*------------------Images--------------------*/
@@ -166,18 +167,18 @@ nav ul li {
     height: 100px;
     width: auto;
 }
-/*------------------About Me page-----------------*/
-
+/*------------------Columns Set up for all pages-----------------*/
 
 
 #column1of2 {
     width: 650px; 
 	float: left; 
-    margin-left: auto;
+    margin-left: 20px;
 	background: #fff; 
 	padding: 20px;
 	margin-bottom: 100px;
 	border: 1px solid #dddddd;
+    
 }
 
 #column2of2 {
